@@ -7,4 +7,6 @@
   padding: 0;
 }
 
-
+body, input, textarea, button{
+  font-family: 'Montserrat', sans-serif;
+}

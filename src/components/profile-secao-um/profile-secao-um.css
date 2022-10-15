@@ -1,0 +1,130 @@
+@import url(../style.css);
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.profile{
+    background-color: var(--cor-background);
+}
+.profile-secao-um{
+   
+    font-family: 'Montserrat', sans-serif;
+    width: 70%;
+    /* margin: 0 auto; */
+    display:grid; 
+    gap:1rem;
+    grid-template-areas: 
+    "profile-secao-perfil profile-secao-perfil profile-secao-dashboard"
+    "profile-secao-perfil profile-secao-perfil profile-secao-dashboard"
+    ;
+}
+
+.profile-secao-perfil{
+    grid-area: profile-secao-perfil;
+    background-color: #FFFFFF;
+    margin-top: 15px;
+
+}
+
+.profile-secao-perfil-botoes{
+    display: flex;
+    justify-content: space-between;
+    background-image: url('../../img/retangulo.png');
+}
+
+.profile-secao-perfil-botoes div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.profile-secao-dashboard{
+    grid-area: profile-secao-dashboard;
+    background-color: #FFFFFF;
+    margin-top: 15px;
+    padding: 1rem 0.5rem 0.5rem 1rem;
+}
+
+.profile-botao-azul{
+    font-family: 'Montserrat', sans-serif;
+    background: var(--cor-button);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profile-botao-contato{
+    padding: 8px;
+    width: 10rem;
+    height: 2rem;
+}
+
+.profile-botao-branco{
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.profile-botao-connections{
+    padding: 8px;
+    width: 12rem;
+    height: 2rem;
+    border:1px solid var(--cor-primary);
+    color:var(--cor-primary);
+    font-weight: 700;
+    
+}
+
+.profile-secao-dashboard-cabecalho{
+    display: flex;
+    font-size: 12px;
+   color: #181818;
+}
+
+.profile-secao-dashboard-cabecalho a{
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--cor-primary);
+}
+
+.profile-secao-dashboard h1{
+    font-size: 52px;
+    color: var(--cor-primary);
+}
+.profile-secao-dashboard p{
+    font-size: 14px;
+    color: #181818;
+}
+
+.profile-secao-dashboard h3{
+    font-size: 12px;
+}
+
+
+.profile-secao-perfil-1{
+    padding-right: 1rem;
+}
+
+.profile-secao-perfil-1, .profile-secao-perfil-2{
+    display: flex;
+    align-items: center;
+}
+
+.profile-secao-perfil-2{
+    justify-content: space-between;
+}
+
+.profile-secao-perfil-foto img{
+    width: 170px;
+    height: 170px;
+    padding: 1rem;
+}
+
+.profile-secao-texto{
+    font-size: 14px;
+}
+
+.profile-secao-perfil-3{
+    margin: 10px 0 10px 0 ;
+}

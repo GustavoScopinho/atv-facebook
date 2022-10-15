@@ -1,0 +1,26 @@
+@import url(../style.css);
+
+.profile-header {
+    width: 100vw;
+    height: 80px;
+    background-color: red;
+    
+
+}
+
+.profile-header-menu {
+    display: flex;
+    text-align: center;
+
+}
+
+.lista-menu-header {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    
+}
+.lista-menu-header img{
+   width: 50px; 
+   height: 50px;
+}

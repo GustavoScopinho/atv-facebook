@@ -25,12 +25,53 @@
 .profile-secao-dois-menu {
     grid-area: profile-secao-dois-menu;
     margin-top: 1.3rem;
+    grid-row: 1 / 1;
+    grid-column: 1 / span 2;
+    height: min-content;
+    background-color: red;
+
 }
 
 .profile-secao-dois-visitors {
     grid-area: profile-secao-dois-visitors;
+    grid-row:1 / 1 ;
+    grid-column: 3 / 3;
     background-color: #FFFFFF;
     margin-top: 15px;
+    color: #181818;
+    padding: 1rem 0.5rem 0.5rem 1rem;
+
+}
+
+.profile-secao-dois-visitors,
+h5,
+a {
+    font-size: 12px;
+}
+
+.profile-secao-dois-visitors a {
+    color: var(--cor-primary);
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.profile-secao-dois-titulo {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+
+
+
+.profile-secao-dois-lista {
+    display: flex;
+    align-items: center;
+    padding: 0.4rem;
+}
+
+.profile-secao-dois-dados {
+    padding-left: 0.8rem;
 }
 
 .profile-secao-dois-about {
@@ -38,20 +79,22 @@
     background-color: #FFFFFF;
     margin-top: 15px;
     padding: 1.2rem;
+    
 }
 
-.profile-secao-dois-about p, .profile-secao-dois-about a {
+.profile-secao-dois-about p,
+.profile-secao-dois-about a {
     font-size: 12px;
 }
 
-.profile-secao-dois-about p{
+.profile-secao-dois-about p {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
 
-.profile-secao-dois-about a{
+.profile-secao-dois-about a {
     text-decoration: none;
-    color: var( --cor-primary);
+    color: var(--cor-primary);
     cursor: pointer;
     font-weight: 700;
 }
@@ -60,6 +103,30 @@
     grid-area: profile-secao-dois-courses;
     background-color: #FFFFFF;
     margin-top: 15px;
+}
+
+.profile-secao-dois-videos {
+    display: flex;
+    align-items: center;
+    padding: 0.6rem;
+}
+
+.profile-secao-dois-videos h5,
+.profile-secao-dois-videos small {
+   padding-left: 0.8rem;
+}
+
+.profile-secao-dois-courses h5{
+    padding-left: 0.8rem;
+    padding-top: 0.8rem;
+}
+
+.profile-secao-dois-courses a{
+    color: var(--cor-primary);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 0.8rem;
 }
 
 .profile-secao-dois-projects {
@@ -98,4 +165,26 @@
 .branco {
     background-color: #FFFFFF;
     border: 1px solid grey !important;
+}
+
+.profile-secao-dois small {
+    font-size: 10px;
+
+}
+
+.profile-secao-dois h5 {
+    font-size: 14px;
+
+}
+
+.profile-secao-dois h3 {
+    font-size: 18px;
+
+}
+
+.profile-secao-dois-experience p,
+.profile-secao-dois-education p {
+    font-size: 10px;
+    line-height: 15px;
+
 }

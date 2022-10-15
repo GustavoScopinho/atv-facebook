@@ -1,0 +1,97 @@
+@import url('../style.css');
+
+.header-feed{
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+}
+
+.container-feed {
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+
+}
+
+.logo-feed{
+  border-right: 1px solid #f4f4f4;
+  border-right-width: 1px;
+  height: 82px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-feed img, .logo-feed, .imagem-profile-feed, .container-other {
+  cursor: pointer;
+}
+
+.search-feed{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.search-feed input {
+  width: 200px;
+  height: 25px;
+  border: none;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.profile-feed{
+  display: flex;
+  flex-direction: row;
+  width: 290px;
+  gap: 20px;
+  align-items: center;
+}
+
+.profile-views{
+  display: flex;
+}
+
+.imagem-profile-feed img {
+  width: 50px;
+}
+
+.container-perfil-feed {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-views strong{
+  color: #02B033;
+  padding-left: 10px;
+  font-size:12px;
+}
+
+.profile-name-feed strong, p {
+  font-size: 14px;
+  padding-bottom: 2px;
+}
+
+.profile-name-feed p {
+  opacity: 40%;
+}
+
+ .profile-name-feed{
+  display: flex;
+  gap: 10px;
+ }
+
+.container-other {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-other strong {
+  font-size: 14px;
+}
+
+.container-other img {
+  width: 34px;
+}
+

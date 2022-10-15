@@ -2,9 +2,12 @@
 
 :root{
   --cor-primary: #0275B1;
-  --cor-button: background: linear-gradient(to bottom, #0077B5 , 
+  --cor-button: linear-gradient(to bottom, #0077B5 , 
   #0E6795 );
   --cor-background: background-color: #E5E5E5;
   --cor-footer: #F7F9FB;
 }
 
+body, input, textarea, button{
+  font-family: 'Montserrat', sans-serif;
+}

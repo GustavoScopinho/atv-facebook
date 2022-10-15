@@ -23,19 +23,3 @@
    height: 50px;
 }
 
-.profile-secao-dois small{
-    font-size: 10px;
-}
-
-.profile-secao-dois h5{
-    font-size: 14px;
-}
-
-.profile-secao-dois h3 {
-    font-size: 18px;
-}
-
-.profile-secao-dois-experience p, .profile-secao-dois-education p{
- font-size:10px ;
- line-height: 15px;
-}

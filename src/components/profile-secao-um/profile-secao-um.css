@@ -9,30 +9,18 @@
     overflow: auto;
 }
 
+.profile-main {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    justify-items: center;
+    width: 100%;
+}
+
 .profile {
     background-color: var(--cor-background);
     height: 100%;
     width: 100%;
     /*overflow: hidden;*/
-}
-
-.profile-secao-um {
-
-    font-family: 'Montserrat', sans-serif;
-    width: 70%;
-    /* margin: 0 auto; */
-    display: grid;
-    gap: 1rem;
-    grid-template-areas:
-        "profile-secao-perfil profile-secao-perfil profile-secao-dashboard"
-        "profile-secao-perfil profile-secao-perfil profile-secao-dashboard"
-    ;
-}
-
-.profile-secao-perfil {
-    grid-area: profile-secao-perfil;
-    background-color: #FFFFFF;
-    margin-top: 15px;
 }
 
 .profile-secao-perfil-botoes {
@@ -46,13 +34,6 @@
     justify-content: flex-end;
 }
 
-
-.profile-secao-dashboard {
-    grid-area: profile-secao-dashboard;
-    background-color: #FFFFFF;
-    margin-top: 15px;
-    padding: 1rem 0.5rem 0.5rem 1rem;
-}
 
 .profile-botao-azul {
     font-family: 'Montserrat', sans-serif;
@@ -87,14 +68,17 @@
 
 .profile-secao-dashboard-cabecalho {
     display: flex;
+    justify-content: space-between;
     font-size: 12px;
     color: #181818;
+    
 }
 
 .profile-secao-dashboard-cabecalho a {
     text-decoration: none;
     cursor: pointer;
     color: var(--cor-primary);
+    font-weight: bold;
 }
 
 .profile-secao-dashboard h1 {
@@ -107,7 +91,7 @@
     color: #181818;
 }
 
-.profile-secao-dashboard h3 {
+.profile-secao-dashboard-cabecalho h3 {
     font-size: 12px;
 }
 

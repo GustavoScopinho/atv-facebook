@@ -8,22 +8,35 @@
 .profile-secao-dois {
     display: grid;
     font-family: 'Montserrat', sans-serif;
-    width: 70%;
+    width: 100%;
     gap: 1rem;
+    grid-template-columns: auto 25%;
     grid-template-areas:
+        "profile-secao-perfil profile-secao-perfil profile-secao-dashboard"
         "profile-secao-dois-menu profile-secao-dois-menu profile-secao-dois-visitors"
         "profile-secao-dois-about profile-secao-dois-about profile-secao-dois-visitors"
-        "profile-secao-dois-projects profile-secao-dois-projects profile-secao-dois-courses"
-        "profile-secao-dois-skills profile-secao-dois-skills ."
-        "profile-secao-dois-experience  profile-secao-dois-experience . "
-        "profile-secao-dois-experience  profile-secao-dois-experience . "
+        "profile-secao-dois-projects profile-secao-dois-projects profile-secao-dois-visitors"
+        "profile-secao-dois-skills profile-secao-dois-skills profile-secao-dois-courses"
+        "profile-secao-dois-experience  profile-secao-dois-experience profile-secao-dois-courses "
         "profile-secao-dois-education  profile-secao-dois-education . "
     ;
 }
 
+.profile-secao-perfil {
+    grid-area: profile-secao-perfil;
+    background-color: #FFFFFF;
+    margin-top: 15px;
+}
+
+.profile-secao-dashboard {
+    grid-area: profile-secao-dashboard;
+    background-color: #FFFFFF;
+    margin-top: 15px;
+    padding: 1rem 0.5rem 0.5rem 1rem;
+}
+
 .profile-secao-dois-menu {
     grid-area: profile-secao-dois-menu;
-    margin-top: 1.3rem;
     height: min-content;
 }
 
@@ -31,7 +44,6 @@
     grid-area: profile-secao-dois-visitors;
     height: min-content;
     background-color: #FFFFFF;
-    margin-top: 15px;
     color: #181818;
     padding: 1rem 0.5rem 0.5rem 1rem;
 
@@ -71,7 +83,6 @@ a {
 .profile-secao-dois-about {
     grid-area: profile-secao-dois-about;
     background-color: #FFFFFF;
-    margin-top: 15px;
     padding: 1.2rem;
     height: min-content;
 
@@ -138,82 +149,83 @@ a {
 .profile-secao-dois-projects {
     grid-area: profile-secao-dois-projects;
     background-color: #FFFFFF;
-    margin-top: 15px;
     height: min-content;
-    
+
 }
 
-.profile-secao-dois-projects-titulo{
+.profile-secao-dois-projects-titulo {
     display: flex;
     align-items: center;
     padding: 1.2rem;
 
 }
-.profile-secao-dois-projects-titulo small{
+
+.profile-secao-dois-projects-titulo small {
     padding-left: 1rem;
 }
 
-.profile-secao-dois-projects a{
+.profile-secao-dois-projects a {
     color: var(--cor-primary);
     text-decoration: none;
     font-weight: bold;
-    padding: 1.2rem;
+    margin: 3rem 0 1.2rem 1.2rem;
 }
 
-.profile-secao-dois-projects-lista{
+.profile-secao-dois-projects-lista {
     display: flex;
     padding-left: 1.2rem;
     padding-right: 1.2rem;
-    
+    width: 100%;
+
 }
 
-.profile-secao-dois-projects-lista img{
+.profile-secao-dois-projects-lista img {
     max-width: 190px;
 }
 
-.profile-secao-dois-projects-show-all{
+.profile-secao-dois-projects-show-all {
     margin-bottom: 1rem;
 }
 
-.profile-secao-dois-projects-col{
+.profile-secao-dois-projects-col {
     padding-right: 0.5rem;
+    width: 100%;
 }
 
 .profile-secao-dois-skills {
     grid-area: profile-secao-dois-skills;
     background-color: #FFFFFF;
-    margin-top: 15px;
 }
 
-.profile-secao-dois-skills-titulo{
+.profile-secao-dois-skills-titulo {
     padding: 1.2rem 1.2rem 0 1.2rem;
 }
 
-.profile-secao-dois-skills-lista{
+.profile-secao-dois-skills-lista {
     display: flex;
     max-width: 100%;
     padding: 1.2rem;
 }
 
-.profile-secao-dois-skills-item{
-    border: 1px solid #E5E5E5 ;
+.profile-secao-dois-skills-item {
+    border: 1px solid #E5E5E5;
     border-radius: 5px;
     width: 100%;
     padding: 0.5rem;
-    margin-right:0.5rem;
+    margin-right: 0.5rem;
 }
 
-.profile-secao-dois-skills-item-titulo{
+.profile-secao-dois-skills-item-titulo {
     display: flex;
     justify-content: space-between;
 }
 
-.profile-secao-dois-skills-link{
+.profile-secao-dois-skills-link {
     margin-bottom: 1rem;
     padding-left: 1.2rem;
 }
 
-.profile-secao-dois-skills-link a{
+.profile-secao-dois-skills-link a {
     color: var(--cor-primary);
     font-weight: bold;
     text-decoration: none;
@@ -226,43 +238,42 @@ a {
     margin-bottom: 1rem;
 }
 
-.profile-secao-dois-education h3{
+.profile-secao-dois-education h3 {
     padding: 1.2rem 0 1.2rem 1.2rem;
 }
 
-.profile-secao-dois-education-item{
+.profile-secao-dois-education-item {
     display: flex;
     padding: 0 1.2rem 0.6rem 1.2rem;
 }
 
-.profile-secao-dois-education-texto{
+.profile-secao-dois-education-texto {
     padding-left: 1.2rem;
 }
 
 .profile-secao-dois-experience {
     grid-area: profile-secao-dois-experience;
     background-color: #FFFFFF;
-    margin-top: 15px;
 }
 
-.profile-secao-dois-experience h3{
+.profile-secao-dois-experience h3 {
     padding-top: 1.2rem;
     padding-left: 1.2rem;
 }
 
-.profile-secao-dois-experience-item{
+.profile-secao-dois-experience-item {
     display: flex;
     margin: 1.2rem;
 }
 
- hr{
+hr {
 
-    border-color: #E5E5E5 ;
+    border-color: #E5E5E5;
     border-style: solid;
     margin: 1.2rem;
 }
 
-.profile-secao-dois-item-descricao{
+.profile-secao-dois-item-descricao {
     padding-left: 1rem;
 }
 
@@ -288,9 +299,8 @@ a {
 
 }
 
-.profile-secao-dois h3 {
+.profile-secao-dois .titulo {
     font-size: 18px;
-
 }
 
 .profile-secao-dois-experience p,

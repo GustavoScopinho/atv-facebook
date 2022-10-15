@@ -4,11 +4,12 @@
     font-family: 'Montserrat', sans-serif;
     background-color: var(--cor-footer);
     width: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
     left: 0;
     right: 0;
     position: absolute;
 }
+
 
 .profile-secao-footer-container {
     max-width: 80%;

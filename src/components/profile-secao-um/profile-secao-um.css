@@ -1,12 +1,17 @@
-@import url(../style.css);
+@import url('../style.css');
 
 * {
     padding: 0;
     margin: 0;
 }
 
+main{
+    overflow: hidden;
+}
+
 .profile {
     background-color: var(--cor-background);
+    overflow: hidden;
 }
 
 .profile-secao-um {
@@ -26,7 +31,6 @@
     grid-area: profile-secao-perfil;
     background-color: #FFFFFF;
     margin-top: 15px;
-
 }
 
 .profile-secao-perfil-botoes {

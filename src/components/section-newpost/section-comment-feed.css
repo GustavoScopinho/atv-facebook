@@ -1,0 +1,127 @@
+@import url('../style.css');
+
+.container-likethis-feed{
+  margin-top: 25px;
+  width: 100%;
+  background-color: #fff;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+
+.container-likethis-feed img {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.container-likethis-feed p {
+  padding-left: 15px;
+}
+
+.container-likethis-feed p span {
+  color: var(--cor-primary);
+  cursor: pointer;
+}
+
+.comentario-theresa {
+  border-radius: 5px;
+  margin-top: 1px;
+  height: 180px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.container-comentario-feed {
+  width: 95%;
+  margin: 0 auto;
+  height: 160px;
+}
+.container-foto-feed {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 15px;
+}
+
+.p-developer {
+  padding-top: 4px;
+  font-size: 12px;
+}
+
+.container-foto-feed div strong {
+  color: var(--cor-primary);
+  font-size: 12px;
+}
+
+
+.like-comment-feed {
+  display: flex;
+  margin-top: 21px;
+  width: 100%;
+  height: 51px;
+ 
+  border-radius: 5px;
+}
+
+.container-menor-comment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 100px;
+  border: 1px solid #f4f4f4;
+  border-radius: 4px;
+  background-color: #fff;
+
+}
+
+.container-menor-comment img, .container-foto-feed img, h4 {
+  cursor: pointer;
+}
+
+
+.container-menor-comment strong {
+  font-size: 14px;
+  padding-left: 5px;
+}
+
+.download-comment-brandon {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+}
+
+.download-comment-brandon div {
+  padding-bottom: 10px;
+}
+
+.container-download {
+  display: flex;
+  background-color: #E9F0F8;
+  align-items: center;
+  gap: 10px;
+  height: 80px ;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.container-download div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 10px 0px 10px;
+}
+
+.container-guidelines {
+height: 80px;
+width: 740px;
+}
+
+.p-guidelines {
+  margin-top: 5px;
+  font-size: 12px;
+}

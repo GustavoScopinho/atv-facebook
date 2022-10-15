@@ -35,6 +35,7 @@
     background-color: #FFFFFF;
     margin-top: 15px;
     padding: 1rem 0.5rem 0.5rem 1rem;
+   
 }
 
 .profile-secao-dois-menu {
@@ -113,12 +114,15 @@ a {
     grid-area: profile-secao-dois-courses;
     border-radius: 5px;
     background-color: #FFFFFF;
-    margin-top: 15px;
+    margin-top: -25px;
+    
     height: min-content;
+
 }
 
 .profile-secao-dois-courses-titulo h5 {
     padding-bottom: 2rem;
+   
 }
 
 .profile-secao-dois-videos {

@@ -24,12 +24,14 @@
 
 .profile-secao-perfil {
     grid-area: profile-secao-perfil;
+    border-radius: 5px;
     background-color: #FFFFFF;
     margin-top: 15px;
 }
 
 .profile-secao-dashboard {
     grid-area: profile-secao-dashboard;
+    border-radius: 5px;
     background-color: #FFFFFF;
     margin-top: 15px;
     padding: 1rem 0.5rem 0.5rem 1rem;
@@ -42,6 +44,7 @@
 
 .profile-secao-dois-visitors {
     grid-area: profile-secao-dois-visitors;
+    border-radius: 5px;
     height: min-content;
     background-color: #FFFFFF;
     color: #181818;
@@ -82,6 +85,7 @@ a {
 
 .profile-secao-dois-about {
     grid-area: profile-secao-dois-about;
+    border-radius: 5px;
     background-color: #FFFFFF;
     padding: 1.2rem;
     height: min-content;
@@ -107,6 +111,7 @@ a {
 
 .profile-secao-dois-courses {
     grid-area: profile-secao-dois-courses;
+    border-radius: 5px;
     background-color: #FFFFFF;
     margin-top: 15px;
     height: min-content;
@@ -148,6 +153,7 @@ a {
 
 .profile-secao-dois-projects {
     grid-area: profile-secao-dois-projects;
+    border-radius: 5px;
     background-color: #FFFFFF;
     height: min-content;
 
@@ -194,6 +200,7 @@ a {
 
 .profile-secao-dois-skills {
     grid-area: profile-secao-dois-skills;
+    border-radius: 5px;
     background-color: #FFFFFF;
 }
 
@@ -234,6 +241,7 @@ a {
 
 .profile-secao-dois-education {
     grid-area: profile-secao-dois-education;
+    border-radius: 5px;
     background-color: #FFFFFF;
     margin-bottom: 1rem;
 }
@@ -253,6 +261,7 @@ a {
 
 .profile-secao-dois-experience {
     grid-area: profile-secao-dois-experience;
+    border-radius: 5px;
     background-color: #FFFFFF;
 }
 

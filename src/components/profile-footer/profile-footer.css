@@ -36,6 +36,11 @@
 
 .profile-secao-footer-logo {
     flex: flex;
+    
+}
+
+.profile-secao-footer-logo img{
+    padding-right: 3rem;
 }
 
 .profile-secao-footer-logo,
@@ -43,8 +48,8 @@
 .profile-secao-footer-col-2,
 .profile-secao-footer-col-3 {
     padding-right: 1rem;
+    
 }
-
 
 .profile-secao-footer-col-4 {
     display: flex;

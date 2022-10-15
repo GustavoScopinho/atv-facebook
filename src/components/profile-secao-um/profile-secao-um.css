@@ -1,0 +1,126 @@
+@import url('../style.css');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.profile main{
+    overflow: auto;
+}
+
+.profile-main {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    justify-items: center;
+    width: 100%;
+}
+
+.profile {
+    background-color: var(--cor-background);
+    height: 100%;
+    width: 100%;
+    /*overflow: hidden;*/
+}
+
+.profile-secao-perfil-botoes {
+    display: flex;
+    justify-content: space-between;
+    background-image: url('../../img/retangulo.png');
+}
+
+.profile-secao-perfil-botoes div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.profile-botao-azul {
+    font-family: 'Montserrat', sans-serif;
+    background: var(--cor-button);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profile-botao-contato {
+    padding: 8px;
+    width: 10rem;
+    height: 2rem;
+}
+
+.profile-botao-branco {
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profile-botao-connections {
+    padding: 8px;
+    width: 12rem;
+    height: 2rem;
+    border: 1px solid var(--cor-primary);
+    color: var(--cor-primary);
+    font-weight: 700;
+
+}
+
+.profile-secao-dashboard-cabecalho {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #181818;
+    
+}
+
+.profile-secao-dashboard-cabecalho a {
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--cor-primary);
+    font-weight: bold;
+}
+
+.profile-secao-dashboard h1 {
+    font-size: 52px;
+    color: var(--cor-primary);
+}
+
+.profile-secao-dashboard p {
+    font-size: 14px;
+    color: #181818;
+}
+
+.profile-secao-dashboard-cabecalho h3 {
+    font-size: 12px;
+}
+
+
+.profile-secao-perfil-1 {
+    padding-right: 1rem;
+}
+
+.profile-secao-perfil-1,
+.profile-secao-perfil-2 {
+    display: flex;
+    align-items: center;
+}
+
+.profile-secao-perfil-2 {
+    justify-content: space-between;
+}
+
+.profile-secao-perfil-foto img {
+    width: 170px;
+    height: 170px;
+    padding: 1rem;
+}
+
+.profile-secao-texto {
+    font-size: 14px;
+}
+
+.profile-secao-perfil-3 {
+    margin: 10px 0 10px 0;
+}
+

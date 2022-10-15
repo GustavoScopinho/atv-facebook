@@ -1,0 +1,98 @@
+@import url('../style.css');
+
+.profile-secao-footer {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--cor-footer);
+    width: 100%;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+.profile-secao-footer-container {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.profile-secao-footer li {
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 1rem;
+}
+
+.profile-secao-footer h4 {
+    font-size: 12px;
+}
+
+.profile-secao-footer-logo {
+    flex: flex;
+}
+
+.profile-secao-footer-logo img {
+    padding-right: 3rem;
+}
+
+.profile-secao-footer-logo,
+.profile-secao-footer-col-1,
+.profile-secao-footer-col-2,
+.profile-secao-footer-col-3 {
+    padding-right: 1rem;
+
+}
+
+.profile-secao-footer-col-4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-secao-footer-col-4 button {
+    margin: 0.5rem 1.5rem 0 0;
+}
+
+.profile-footer-botao-questions {
+    background: linear-gradient(to bottom, #0077B5,
+            #0E6795);
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 0.4rem 1rem 0.4rem 1rem;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.profile-footer-botao-questions img,
+.profile-footer-botao-settings img {
+    vertical-align: middle;
+}
+
+.profile-footer-botao-settings {
+    border: 1px solid #0275B1;
+    color: #0275B1;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+
+.profile-secao-footer-col-5 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    font-size: 12px;
+}
+
+.profile-secao-footer-col-5 select {
+    border: 1px solid var(--cor-footer);
+    font-size: 12px;
+    padding: 0.3rem 0 0.3rem 0.6rem;
+}

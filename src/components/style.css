@@ -6,6 +6,11 @@
 @import url(./coluna-feed/coluna-feed-perfil.css);
 @import url(./section-newpost/section-comment-feed.css);
 @import url(./footer-feed/footer-feed.css);
+@import url('../components/profile-header/profile-header.css');
+@import url('../components/profile-secao-um/profile-secao-um.css');
+@import url('../components/profile-footer/profile-footer.css');
+@import url('../components/profile-secao-dois/profile-secao-dois.css');
+
 
 
 

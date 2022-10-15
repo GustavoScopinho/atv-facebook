@@ -25,7 +25,6 @@
     grid-area: profile-secao-dois-menu;
     margin-top: 1.3rem;
     height: min-content;
-    background-color: red;
 }
 
 .profile-secao-dois-visitors {
@@ -221,13 +220,23 @@ a {
 }
 
 
-
-
-
 .profile-secao-dois-education {
     grid-area: profile-secao-dois-education;
     background-color: #FFFFFF;
-    margin-top: 15px;
+    margin-bottom: 1rem;
+}
+
+.profile-secao-dois-education h3{
+    padding: 1.2rem 0 1.2rem 1.2rem;
+}
+
+.profile-secao-dois-education-item{
+    display: flex;
+    padding: 0 1.2rem 0.6rem 1.2rem;
+}
+
+.profile-secao-dois-education-texto{
+    padding-left: 1.2rem;
 }
 
 .profile-secao-dois-experience {

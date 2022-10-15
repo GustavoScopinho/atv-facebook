@@ -11,7 +11,6 @@
     justify-content: space-around;
     display: flex;
     align-items: center;
-  
   }
   
   .logo-feed{
@@ -68,7 +67,7 @@
   }
 
   .profile-header-imagem{
-    display: flex;
+
   }
   
   .profile-name-feed strong, p {

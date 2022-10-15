@@ -6,12 +6,14 @@
 }
 
 main{
-    overflow: hidden;
+    overflow: auto;
 }
 
 .profile {
     background-color: var(--cor-background);
-    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    /*overflow: hidden;*/
 }
 
 .profile-secao-um {

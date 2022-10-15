@@ -6,9 +6,13 @@
     /*display: flex;
     justify-content: center;*/
     width: 100%;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    position: absolute;
 }
 
-.profile-secao-footer-container{
+.profile-secao-footer-container {
     max-width: 80%;
     margin: 0 auto;
     display: flex;
@@ -25,7 +29,8 @@
     font-size: 12px;
     line-height: 1rem;
 }
-.profile-secao-footer h4{
+
+.profile-secao-footer h4 {
     font-size: 12px;
 }
 
@@ -36,10 +41,9 @@
 .profile-secao-footer-logo,
 .profile-secao-footer-col-1,
 .profile-secao-footer-col-2,
-.profile-secao-footer-col-3{
+.profile-secao-footer-col-3 {
     padding-right: 1rem;
 }
-
 
 
 .profile-secao-footer-col-4 {
@@ -63,7 +67,9 @@
     font-size: 12px;
 
 }
-.profile-footer-botao-questions img, .profile-footer-botao-settings img{
+
+.profile-footer-botao-questions img,
+.profile-footer-botao-settings img {
     vertical-align: middle;
 }
 
@@ -86,7 +92,7 @@
     font-size: 12px;
 }
 
-.profile-secao-footer-col-5 select{
+.profile-secao-footer-col-5 select {
     border: 1px solid var(--cor-footer);
     font-size: 12px;
     padding: 0.3rem 0 0.3rem 0.6rem;

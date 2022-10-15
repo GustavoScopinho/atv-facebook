@@ -236,7 +236,26 @@ a {
     margin-top: 15px;
 }
 
+.profile-secao-dois-experience h3{
+    padding-top: 1.2rem;
+    padding-left: 1.2rem;
+}
 
+.profile-secao-dois-experience-item{
+    display: flex;
+    margin: 1.2rem;
+}
+
+ hr{
+
+    border-color: #E5E5E5 ;
+    border-style: solid;
+    margin: 1.2rem;
+}
+
+.profile-secao-dois-item-descricao{
+    padding-left: 1rem;
+}
 
 .perfil-botao-lista {
     width: 150px;

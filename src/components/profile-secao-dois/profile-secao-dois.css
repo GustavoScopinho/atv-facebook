@@ -13,9 +13,8 @@
     grid-template-areas:
         "profile-secao-dois-menu profile-secao-dois-menu profile-secao-dois-visitors"
         "profile-secao-dois-about profile-secao-dois-about profile-secao-dois-visitors"
-        "profile-secao-dois-projects profile-secao-dois-projects profile-secao-dois-visitors"
         "profile-secao-dois-projects profile-secao-dois-projects profile-secao-dois-courses"
-        "profile-secao-dois-skills profile-secao-dois-skills profile-secao-dois-courses"
+        "profile-secao-dois-skills profile-secao-dois-skills ."
         "profile-secao-dois-experience  profile-secao-dois-experience . "
         "profile-secao-dois-experience  profile-secao-dois-experience . "
         "profile-secao-dois-education  profile-secao-dois-education . "
@@ -25,17 +24,13 @@
 .profile-secao-dois-menu {
     grid-area: profile-secao-dois-menu;
     margin-top: 1.3rem;
-    grid-row: 1 / 1;
-    grid-column: 1 / span 2;
     height: min-content;
     background-color: red;
-
 }
 
 .profile-secao-dois-visitors {
     grid-area: profile-secao-dois-visitors;
-    grid-row:1 / 1 ;
-    grid-column: 3 / 3;
+    height: min-content;
     background-color: #FFFFFF;
     margin-top: 15px;
     color: #181818;
@@ -79,7 +74,8 @@ a {
     background-color: #FFFFFF;
     margin-top: 15px;
     padding: 1.2rem;
-    
+    height: min-content;
+
 }
 
 .profile-secao-dois-about p,
@@ -103,25 +99,31 @@ a {
     grid-area: profile-secao-dois-courses;
     background-color: #FFFFFF;
     margin-top: 15px;
+    height: min-content;
+}
+
+.profile-secao-dois-courses-titulo h5 {
+    padding-bottom: 2rem;
 }
 
 .profile-secao-dois-videos {
     display: flex;
     align-items: center;
-    padding: 0.6rem;
+    padding-left: 0.8rem;
+    padding-right: 0.5rem;
 }
 
 .profile-secao-dois-videos h5,
 .profile-secao-dois-videos small {
-   padding-left: 0.8rem;
+    padding-left: 0.7rem;
 }
 
-.profile-secao-dois-courses h5{
+.profile-secao-dois-courses h5 {
     padding-left: 0.8rem;
     padding-top: 0.8rem;
 }
 
-.profile-secao-dois-courses a{
+.profile-secao-dois-courses a {
     color: var(--cor-primary);
     text-decoration: none;
     font-size: 12px;
@@ -129,10 +131,53 @@ a {
     padding-left: 0.8rem;
 }
 
+.profile-secao-dois-courses-rec {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 .profile-secao-dois-projects {
     grid-area: profile-secao-dois-projects;
     background-color: #FFFFFF;
     margin-top: 15px;
+    height: min-content;
+    
+}
+
+.profile-secao-dois-projects-titulo{
+    display: flex;
+    align-items: center;
+    padding: 1.2rem;
+
+}
+.profile-secao-dois-projects-titulo small{
+    padding-left: 1rem;
+}
+
+.profile-secao-dois-projects a{
+    color: var(--cor-primary);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1.2rem;
+}
+
+.profile-secao-dois-projects-lista{
+    display: flex;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    
+}
+
+.profile-secao-dois-projects-lista img{
+    max-width: 190px;
+}
+
+.profile-secao-dois-projects-show-all{
+    margin-bottom: 1rem;
+}
+
+.profile-secao-dois-projects-col{
+    padding-right: 0.5rem;
 }
 
 .profile-secao-dois-skills {
@@ -140,6 +185,44 @@ a {
     background-color: #FFFFFF;
     margin-top: 15px;
 }
+
+.profile-secao-dois-skills-titulo{
+    padding: 1.2rem 1.2rem 0 1.2rem;
+}
+
+.profile-secao-dois-skills-lista{
+    display: flex;
+    max-width: 100%;
+    padding: 1.2rem;
+}
+
+.profile-secao-dois-skills-item{
+    border: 1px solid #E5E5E5 ;
+    border-radius: 5px;
+    width: 100%;
+    padding: 0.5rem;
+    margin-right:0.5rem;
+}
+
+.profile-secao-dois-skills-item-titulo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-secao-dois-skills-link{
+    margin-bottom: 1rem;
+    padding-left: 1.2rem;
+}
+
+.profile-secao-dois-skills-link a{
+    color: var(--cor-primary);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+
 
 .profile-secao-dois-education {
     grid-area: profile-secao-dois-education;

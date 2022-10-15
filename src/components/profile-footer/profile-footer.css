@@ -3,8 +3,6 @@
 .profile-secao-footer {
     font-family: 'Montserrat', sans-serif;
     background-color: var(--cor-footer);
-    /*display: flex;
-    justify-content: center;*/
     width: 100%;
     overflow: hidden;
     left: 0;
@@ -19,9 +17,7 @@
     justify-content: center;
     padding-top: 1rem;
     padding-bottom: 1.5rem;
-
 }
-
 
 .profile-secao-footer li {
     list-style-type: none;
@@ -36,10 +32,9 @@
 
 .profile-secao-footer-logo {
     flex: flex;
-    
 }
 
-.profile-secao-footer-logo img{
+.profile-secao-footer-logo img {
     padding-right: 3rem;
 }
 
@@ -48,7 +43,7 @@
 .profile-secao-footer-col-2,
 .profile-secao-footer-col-3 {
     padding-right: 1rem;
-    
+
 }
 
 .profile-secao-footer-col-4 {
@@ -70,7 +65,6 @@
     padding: 0.4rem 1rem 0.4rem 1rem;
     cursor: pointer;
     font-size: 12px;
-
 }
 
 .profile-footer-botao-questions img,

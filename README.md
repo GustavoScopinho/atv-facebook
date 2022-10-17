@@ -1,6 +1,6 @@
 # Linkedin
 
-Atividade homework no #VemSer10 do site Linkedin. 💙
+Atividade em dupla, homework no #VemSer10 do site Linkedin. 💙
 
 ## Projeto:
 
